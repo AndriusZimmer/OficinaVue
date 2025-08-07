@@ -1,0 +1,59 @@
+1. npm create vue@latest
+
+2. Apagar template
+
+3. Criar pasta components com componente Lista.vue
+<script setup></script>
+
+<template></template>
+
+<style scoped></style>
+
+4. Adicionar um texto na Lista e importar no App
+
+5. Exibindo os Dados com Interpolação
+Colocar o título da lista com interpolação
+
+6. Criar input para nossa lista
+
+7. Utilizar v-model para linkar a resposta do input com nossa variavel.
+
+8. Criar id e lista de jogos
+
+9. criar botão para adicionar na nossa lista de jogos
+
+10. Renderizar a lista com v for
+
+11. Criar função adicionar jogo, e adicionar ao botão.
+
+12. Criar função remover jogo, e adicionar botao de remover.
+
+13. Adicionar texto de lista vazia com v show
+
+14. Criar stilos:
+.textoAzul {
+  color: blue;
+}
+.btnVermelho {
+  background-color: red;
+}
+
+15. Adicionar aos estilos o botão de remover e usar o vbind para alterar 
+a cor do texto do jogo.
+<li v-for="jogo in jogos" :class="{ textoAzul: jogo.id % 2 === 0 }">
+
+
+
+
+
+Interpolação ({{ }}): Exibir dados.
+
+v-for: Renderizar listas.
+
+v-model: Sincronizar dados entre input e variável.
+
+v-on ou @: Lidar com eventos.
+
+v-bind ou :: Atribuir valores dinâmicos a atributos.
+
+v-if e v-show: Renderização condicional.
