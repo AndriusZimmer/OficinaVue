@@ -44,7 +44,7 @@ a cor do texto do jogo.
 
 
 
-
+Componente: Bloco de construção reutilizável que encapsula HTML, CSS e JavaScript para criar partes modulares da interface.
 
 Interpolação ({{ }}): Exibir dados.
 
